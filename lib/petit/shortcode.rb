@@ -1,7 +1,7 @@
 module Petit
   # The Shortcode class encapsulates a shortcode object.
   class Shortcode
-    require 'aws-sdk'
+    require 'aws-sdk-dynamodb'
     require 'active_support/all'
 
     attr_reader :created_at, :updated_at, :access_count
